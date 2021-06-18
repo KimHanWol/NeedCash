@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "371976439503",
+    "project_id": "cashplease-38a98",
+    "storage_bucket": "cashplease-38a98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371976439503:android:86e402c6c9a7623e1b19ba",
+        "android_client_info": {
+          "package_name": "kr.ac.jbnu.se.mobile.cashplease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371976439503-bf6tipscsj1q35f98473gmml8tbqh16t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.jbnu.se.mobile.cashplease",
+            "certificate_hash": "34694a7b9d280aa279e223c5dd19177e675b22c3"
+          }
+        },
+        {
+          "client_id": "371976439503-vmvhqseuqhikela9v7k0eo1f7sv2bpvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDae2U7JlZ2dB-KchusS-iKj_1ULZo3bAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371976439503-vmvhqseuqhikela9v7k0eo1f7sv2bpvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
