@@ -101,7 +101,7 @@ public class MatchingService extends Service{
                 }
                 for(int i = 0;i<idList.size();i++){
                     if(!idTestList.contains(idList.get(i))){
-                        notificationManager.cancel(i);
+                        notificationManager.cancel(Integer.parseInt(idList.get(i)));
                         idList.remove(idList.get(i));
                     }
                 }
@@ -142,7 +142,6 @@ public class MatchingService extends Service{
         }
 
         if(uploadData.getDistance() < 2) idList.add(id);
-
 
         if(uploadData.getDistance() <= uploadData.getDistanceLimit() && !idList.contains(id)) {
             idList.add(id);

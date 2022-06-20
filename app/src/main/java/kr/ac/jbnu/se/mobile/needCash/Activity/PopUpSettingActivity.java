@@ -23,7 +23,6 @@ public class PopUpSettingActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_pop_up_setting);
 
-
         TextView tv_title = findViewById(R.id.tv_title);
         String data = getIntent().getStringExtra("data");
         if(data == null) finish();

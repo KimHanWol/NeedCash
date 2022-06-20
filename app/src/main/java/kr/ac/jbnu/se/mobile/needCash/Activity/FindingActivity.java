@@ -314,7 +314,6 @@ public class FindingActivity extends AppCompatActivity implements OnMapReadyCall
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
         this.googleMap = googleMap;
-        Toast.makeText(this, "구글 맵 준비됨", Toast.LENGTH_SHORT).show();
 
         otherLocationOptions = new MarkerOptions();
         otherLocationOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));

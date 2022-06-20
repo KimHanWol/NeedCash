@@ -27,7 +27,6 @@ public class ForcedTerminationService extends Service {
         if(!id.equals("")){
             FirebaseDatabase.getInstance().getReference().child(String.valueOf(id)).setValue(null);
         }
-        Toast.makeText(getApplicationContext(), "강제종료됨", Toast.LENGTH_SHORT).show();
         stopSelf();
 
         super.onTaskRemoved(rootIntent);
@@ -39,7 +38,6 @@ public class ForcedTerminationService extends Service {
 
         if(intent == null) return super.onStartCommand(intent, flags, startId);
         id = intent.getStringExtra("id");
-        Toast.makeText(getApplicationContext(), "서비스 시작됨", Toast.LENGTH_SHORT).show();
         
         return super.onStartCommand(intent, flags, startId);
     }
